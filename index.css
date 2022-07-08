@@ -6,7 +6,7 @@ html {
    background-color: #282c34;
    align-items: center;
    overflow-x: hidden;
-   animation: scrollseal 0s 23s both;
+
    -ms-overflow-style: none;
    scrollbar-width: none;
  }
@@ -411,7 +411,7 @@ html {
         .content-item {
             width:100%;
         }
-        img{
+        .photo{
             width: 85%;
             height: auto;
             margin: 0px 30px;
@@ -425,7 +425,7 @@ html {
             }
     }
     @media (min-width: 1240px) {
-        img{
+        .photo{
         display:block;
         max-width:100%;
         margin:0px 8%;
@@ -444,7 +444,7 @@ html {
     }
     
     @media (max-width: 699px) {
-        img{
+        .photo{
             width: 80%;
             height: auto;
             margin:0px 30px;
@@ -469,73 +469,7 @@ html {
     }
     
     
-    p{
+    .text p{
         font-size: 20px;
         
     }
-
-
-
-
-
-    .footer-detail-container {
-        position: relative;
-        background-color: #e3e3e3;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-      }
-      .footer-detail-container--inner {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 0 4%;
-      }
-      .footer-detail-top--inner {
-        padding: 30px 10px 30px 10px;
-        justify-content: center;
-      }
-    
-      .footer-detail-logo {
-        width: 100px;
-      }
-      .copy-detail {
-        color: #404040;
-        font-size: 20px;
-        padding-top: 0px;
-        padding-left: 5px;
-        
-      }
-      
-      
-      /*********** Responsive ***********/
-      @media screen and (min-width: 576px) {
-        .footer-container--inner {
-          width: 80%;
-        }
-      }
-      @media screen and (min-width: 1024px) {
-        .footer-detail-container {
-          background-color:  #54585f;
-        }
-        .footer-detail-container--inner {
-          width: 650px;
-        }
-        .copy-detail {
-          color: white;
-        }
-    
-      }
-     @media (prefers-reduced-motion: no-preference) {
-        .footer-detail-logo {
-          animation: App-logo-spin infinite 20s linear;
-        }
-      }
-     @keyframes App-logo-spin {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(360deg);
-        }
-        
-      }
