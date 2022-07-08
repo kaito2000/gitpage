@@ -1,0 +1,104 @@
+<html lang="ja">
+          <head>
+              <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet"/>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+              <link href="index.css" rel="stylesheet">
+            </head>
+          <body>
+            <div class = "big-bg">
+                <header class = "header_wrapper">
+                  <h1 class = "header_iconClock">
+                    <a href="index.html">
+                      <img class="logo" src={logo} alt="headerlogo" />
+                    </a>
+                    
+                  </h1>  
+                  <nav class="main">
+                    <ul class="main-nav">
+                      <li><a href="news.html">News</a></li>
+                      <li><a href="menu.html">Menu</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                  <div class="hamburger-menu"/>
+                  <input type="checkbox" id="menu-btn-check"/>
+                  <label for="menu-btn-check" class="menu-btn">
+                    <span></span>
+                  </label>
+                  <div class="menu-content">
+                      <ul>
+                          <li>
+                              <a href="#">メニューリンク1</a>
+                          </li>
+                          <li>
+                              <a href="#">メニューリンク2</a>
+                          </li>
+                          <li>
+                              <a href="#">メニューリンク3</a>
+                          </li>
+                      </ul>
+                  </div>
+                    </header>
+                <div class = "wrapper">
+                    <div class="wrapper_title">
+                      <div class = "loop_title">
+                          <span class = "title1">Welcome to Kaito's website!</span>
+                          <span class = "title2">My background and research will be posted here.</span>
+                          <span class = "title3">Welcome to Kaito's website!</span>
+                          <span class = "title4">My background and research will be posted here.</span>
+                          
+                      </div>
+                        <p class="scroll_begin">scroll to begin</p>
+                        <p  class="arrow_u"></p>
+                        <h2 class = "profile">profile</h2>
+                    </div>
+                    <div class = "container">
+                        <section class="wrapper">
+                            <div class="profile_container">
+                                <div class="content">
+                                    <div class="content-item">
+                                        <img  src={photo1} alt="dance"/>
+                                    </div>    
+                                    <div class="content-item">
+                                        <div class="text">
+                                            <h2 class="heading">FloorJackCrew</h2>
+                                            <p>大阪工業大学ストリートダンス部にFloorJackCrewに所属</p>
+                                            <p>所属ジャンルはHIPHOPとLOCK</p>
+                                            <p>HIPHOPジャンルリーダーと会計に任命され</p>
+                                            <p>振付や曲編集なども行っていた</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class = "research_wrapper">
+                        <div class="research_container">
+                            <div class="content">
+                                <div class="content-item">
+                                    <img src={photo2} alt="recerch"/>
+                                </div>    
+                                <div class="content-item">
+                                    <div class="text">
+                                        <h2 class="heading">Photograph</h2>
+                                        <p>写真を撮るのが好きで旅行などでよく写真を撮る</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </section>
+                </div>
+                </div>
+            </div>
+            <footer className="footer-detail-container">
+                <div className="footer-detail-container--inner center-box">
+                    <div className="footer-detail-top--inner flex-row">
+                        <img className="footer-detail-logo" src={logo} alt="ロゴ画像" />
+                        <div className="copy-detail arial">© 2022 Kaito</div>
+                    </div>
+    
+                </div>
+            </footer>
+
+          </body>
+        </html>
